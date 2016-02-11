@@ -3,7 +3,7 @@ Percent Pie AngularJS directive
 
 ## Installation
 
-```
+```bash
 bower install --save cg-percent-pie
 ```
 
@@ -11,25 +11,25 @@ bower install --save cg-percent-pie
 
 Import the script in your `index.html` page:
 
-```
+```html
 <script src="bower_components/cg-percent-pie/cg-percent-pie.js"></script>
 ```
 
 Then, in your `angular` module, set `cg.percentpie` module as a dependency:
 
-```
+```javascript
 angular.module('whatever', ['cg.percentpie'])
 ```
 
 You can now use the `cg-percent-pie` directive everywhere:
 
-```
+```html
 <cg-percent-pie percent="69"></cg-percent-pie>
 ```
 
 In your `index.sass` file:
 
-```
+```sass
 @import "bower_components/cg-percent-pie/cg-percent-pie"
 
 @include cg-percent-pie($border-size: 3px, $circle-size: 80px, $percent-font-size: 20%, $circle-color: rgb(85, 199, 215), $circle-shadow: rgb(212, 212, 212))
@@ -37,7 +37,7 @@ In your `index.sass` file:
 
 If you want to use default styles, just import the `index.css` file in your `index.html`:
 
-```
+```html
 <link rel="stylesheet" href="bower_components/cg-percent-pie/index.css">
 ```
 
