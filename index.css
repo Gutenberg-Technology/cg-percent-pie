@@ -1,0 +1,460 @@
+.cg-pie-wrapper, .cg-pie, .cg-pie-wrapper:before, .cg-pie:before, .cg-pie-wrapper:after, .cg-pie:after {
+  box-sizing: border-box; }
+
+.cg-pie.percent-51:before, .cg-pie.percent-52:before, .cg-pie.percent-53:before, .cg-pie.percent-54:before, .cg-pie.percent-55:before, .cg-pie.percent-56:before, .cg-pie.percent-57:before, .cg-pie.percent-58:before, .cg-pie.percent-59:before, .cg-pie.percent-60:before, .cg-pie.percent-61:before, .cg-pie.percent-62:before, .cg-pie.percent-63:before, .cg-pie.percent-64:before, .cg-pie.percent-65:before, .cg-pie.percent-66:before, .cg-pie.percent-67:before, .cg-pie.percent-68:before, .cg-pie.percent-69:before, .cg-pie.percent-70:before, .cg-pie.percent-71:before, .cg-pie.percent-72:before, .cg-pie.percent-73:before, .cg-pie.percent-74:before, .cg-pie.percent-75:before, .cg-pie.percent-76:before, .cg-pie.percent-77:before, .cg-pie.percent-78:before, .cg-pie.percent-79:before, .cg-pie.percent-80:before, .cg-pie.percent-81:before, .cg-pie.percent-82:before, .cg-pie.percent-83:before, .cg-pie.percent-84:before, .cg-pie.percent-85:before, .cg-pie.percent-86:before, .cg-pie.percent-87:before, .cg-pie.percent-88:before, .cg-pie.percent-89:before, .cg-pie.percent-90:before, .cg-pie.percent-91:before, .cg-pie.percent-92:before, .cg-pie.percent-93:before, .cg-pie.percent-94:before, .cg-pie.percent-95:before, .cg-pie.percent-96:before, .cg-pie.percent-97:before, .cg-pie.percent-98:before, .cg-pie.percent-99:before, .cg-pie.percent-100:before {
+  content: '';
+  position: absolute;
+  border: 3px solid transparent;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border-color: #55c7d7 #55c7d7 transparent transparent;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg); }
+
+.cg-pie.percent-0, .cg-pie.percent-1, .cg-pie.percent-2, .cg-pie.percent-3, .cg-pie.percent-4, .cg-pie.percent-5, .cg-pie.percent-6, .cg-pie.percent-7, .cg-pie.percent-8, .cg-pie.percent-9, .cg-pie.percent-10, .cg-pie.percent-11, .cg-pie.percent-12, .cg-pie.percent-13, .cg-pie.percent-14, .cg-pie.percent-15, .cg-pie.percent-16, .cg-pie.percent-17, .cg-pie.percent-18, .cg-pie.percent-19, .cg-pie.percent-20, .cg-pie.percent-21, .cg-pie.percent-22, .cg-pie.percent-23, .cg-pie.percent-24, .cg-pie.percent-25, .cg-pie.percent-26, .cg-pie.percent-27, .cg-pie.percent-28, .cg-pie.percent-29, .cg-pie.percent-30, .cg-pie.percent-31, .cg-pie.percent-32, .cg-pie.percent-33, .cg-pie.percent-34, .cg-pie.percent-35, .cg-pie.percent-36, .cg-pie.percent-37, .cg-pie.percent-38, .cg-pie.percent-39, .cg-pie.percent-40, .cg-pie.percent-41, .cg-pie.percent-42, .cg-pie.percent-43, .cg-pie.percent-44, .cg-pie.percent-45, .cg-pie.percent-46, .cg-pie.percent-47, .cg-pie.percent-48, .cg-pie.percent-49, .cg-pie.percent-50 {
+  clip: rect(0, 1em, 1em, 0.5em); }
+
+.cg-pie-wrapper {
+  font-size: 80px;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  float: left;
+  border: 3px solid #d4d4d4;
+  border-radius: 50%; }
+  .cg-pie-wrapper:after {
+    content: attr(data-percent) "%";
+    font-family: sans-serif;
+    white-space: nowrap;
+    font-size: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+
+.cg-pie {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 1em;
+  height: 1em; }
+  .cg-pie:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #55c7d7 #55c7d7 transparent transparent;
+    border-radius: 50%; }
+  .cg-pie.percent-0:after {
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg); }
+  .cg-pie.percent-1:after {
+    -webkit-transform: rotate(-131.4deg);
+        -ms-transform: rotate(-131.4deg);
+            transform: rotate(-131.4deg); }
+  .cg-pie.percent-2:after {
+    -webkit-transform: rotate(-127.8deg);
+        -ms-transform: rotate(-127.8deg);
+            transform: rotate(-127.8deg); }
+  .cg-pie.percent-3:after {
+    -webkit-transform: rotate(-124.2deg);
+        -ms-transform: rotate(-124.2deg);
+            transform: rotate(-124.2deg); }
+  .cg-pie.percent-4:after {
+    -webkit-transform: rotate(-120.6deg);
+        -ms-transform: rotate(-120.6deg);
+            transform: rotate(-120.6deg); }
+  .cg-pie.percent-5:after {
+    -webkit-transform: rotate(-117deg);
+        -ms-transform: rotate(-117deg);
+            transform: rotate(-117deg); }
+  .cg-pie.percent-6:after {
+    -webkit-transform: rotate(-113.4deg);
+        -ms-transform: rotate(-113.4deg);
+            transform: rotate(-113.4deg); }
+  .cg-pie.percent-7:after {
+    -webkit-transform: rotate(-109.8deg);
+        -ms-transform: rotate(-109.8deg);
+            transform: rotate(-109.8deg); }
+  .cg-pie.percent-8:after {
+    -webkit-transform: rotate(-106.2deg);
+        -ms-transform: rotate(-106.2deg);
+            transform: rotate(-106.2deg); }
+  .cg-pie.percent-9:after {
+    -webkit-transform: rotate(-102.6deg);
+        -ms-transform: rotate(-102.6deg);
+            transform: rotate(-102.6deg); }
+  .cg-pie.percent-10:after {
+    -webkit-transform: rotate(-99deg);
+        -ms-transform: rotate(-99deg);
+            transform: rotate(-99deg); }
+  .cg-pie.percent-11:after {
+    -webkit-transform: rotate(-95.4deg);
+        -ms-transform: rotate(-95.4deg);
+            transform: rotate(-95.4deg); }
+  .cg-pie.percent-12:after {
+    -webkit-transform: rotate(-91.8deg);
+        -ms-transform: rotate(-91.8deg);
+            transform: rotate(-91.8deg); }
+  .cg-pie.percent-13:after {
+    -webkit-transform: rotate(-88.2deg);
+        -ms-transform: rotate(-88.2deg);
+            transform: rotate(-88.2deg); }
+  .cg-pie.percent-14:after {
+    -webkit-transform: rotate(-84.6deg);
+        -ms-transform: rotate(-84.6deg);
+            transform: rotate(-84.6deg); }
+  .cg-pie.percent-15:after {
+    -webkit-transform: rotate(-81deg);
+        -ms-transform: rotate(-81deg);
+            transform: rotate(-81deg); }
+  .cg-pie.percent-16:after {
+    -webkit-transform: rotate(-77.4deg);
+        -ms-transform: rotate(-77.4deg);
+            transform: rotate(-77.4deg); }
+  .cg-pie.percent-17:after {
+    -webkit-transform: rotate(-73.8deg);
+        -ms-transform: rotate(-73.8deg);
+            transform: rotate(-73.8deg); }
+  .cg-pie.percent-18:after {
+    -webkit-transform: rotate(-70.2deg);
+        -ms-transform: rotate(-70.2deg);
+            transform: rotate(-70.2deg); }
+  .cg-pie.percent-19:after {
+    -webkit-transform: rotate(-66.6deg);
+        -ms-transform: rotate(-66.6deg);
+            transform: rotate(-66.6deg); }
+  .cg-pie.percent-20:after {
+    -webkit-transform: rotate(-63deg);
+        -ms-transform: rotate(-63deg);
+            transform: rotate(-63deg); }
+  .cg-pie.percent-21:after {
+    -webkit-transform: rotate(-59.4deg);
+        -ms-transform: rotate(-59.4deg);
+            transform: rotate(-59.4deg); }
+  .cg-pie.percent-22:after {
+    -webkit-transform: rotate(-55.8deg);
+        -ms-transform: rotate(-55.8deg);
+            transform: rotate(-55.8deg); }
+  .cg-pie.percent-23:after {
+    -webkit-transform: rotate(-52.2deg);
+        -ms-transform: rotate(-52.2deg);
+            transform: rotate(-52.2deg); }
+  .cg-pie.percent-24:after {
+    -webkit-transform: rotate(-48.6deg);
+        -ms-transform: rotate(-48.6deg);
+            transform: rotate(-48.6deg); }
+  .cg-pie.percent-25:after {
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+  .cg-pie.percent-26:after {
+    -webkit-transform: rotate(-41.4deg);
+        -ms-transform: rotate(-41.4deg);
+            transform: rotate(-41.4deg); }
+  .cg-pie.percent-27:after {
+    -webkit-transform: rotate(-37.8deg);
+        -ms-transform: rotate(-37.8deg);
+            transform: rotate(-37.8deg); }
+  .cg-pie.percent-28:after {
+    -webkit-transform: rotate(-34.2deg);
+        -ms-transform: rotate(-34.2deg);
+            transform: rotate(-34.2deg); }
+  .cg-pie.percent-29:after {
+    -webkit-transform: rotate(-30.6deg);
+        -ms-transform: rotate(-30.6deg);
+            transform: rotate(-30.6deg); }
+  .cg-pie.percent-30:after {
+    -webkit-transform: rotate(-27deg);
+        -ms-transform: rotate(-27deg);
+            transform: rotate(-27deg); }
+  .cg-pie.percent-31:after {
+    -webkit-transform: rotate(-23.4deg);
+        -ms-transform: rotate(-23.4deg);
+            transform: rotate(-23.4deg); }
+  .cg-pie.percent-32:after {
+    -webkit-transform: rotate(-19.8deg);
+        -ms-transform: rotate(-19.8deg);
+            transform: rotate(-19.8deg); }
+  .cg-pie.percent-33:after {
+    -webkit-transform: rotate(-16.2deg);
+        -ms-transform: rotate(-16.2deg);
+            transform: rotate(-16.2deg); }
+  .cg-pie.percent-34:after {
+    -webkit-transform: rotate(-12.6deg);
+        -ms-transform: rotate(-12.6deg);
+            transform: rotate(-12.6deg); }
+  .cg-pie.percent-35:after {
+    -webkit-transform: rotate(-9deg);
+        -ms-transform: rotate(-9deg);
+            transform: rotate(-9deg); }
+  .cg-pie.percent-36:after {
+    -webkit-transform: rotate(-5.4deg);
+        -ms-transform: rotate(-5.4deg);
+            transform: rotate(-5.4deg); }
+  .cg-pie.percent-37:after {
+    -webkit-transform: rotate(-1.8deg);
+        -ms-transform: rotate(-1.8deg);
+            transform: rotate(-1.8deg); }
+  .cg-pie.percent-38:after {
+    -webkit-transform: rotate(1.8deg);
+        -ms-transform: rotate(1.8deg);
+            transform: rotate(1.8deg); }
+  .cg-pie.percent-39:after {
+    -webkit-transform: rotate(5.4deg);
+        -ms-transform: rotate(5.4deg);
+            transform: rotate(5.4deg); }
+  .cg-pie.percent-40:after {
+    -webkit-transform: rotate(9deg);
+        -ms-transform: rotate(9deg);
+            transform: rotate(9deg); }
+  .cg-pie.percent-41:after {
+    -webkit-transform: rotate(12.6deg);
+        -ms-transform: rotate(12.6deg);
+            transform: rotate(12.6deg); }
+  .cg-pie.percent-42:after {
+    -webkit-transform: rotate(16.2deg);
+        -ms-transform: rotate(16.2deg);
+            transform: rotate(16.2deg); }
+  .cg-pie.percent-43:after {
+    -webkit-transform: rotate(19.8deg);
+        -ms-transform: rotate(19.8deg);
+            transform: rotate(19.8deg); }
+  .cg-pie.percent-44:after {
+    -webkit-transform: rotate(23.4deg);
+        -ms-transform: rotate(23.4deg);
+            transform: rotate(23.4deg); }
+  .cg-pie.percent-45:after {
+    -webkit-transform: rotate(27deg);
+        -ms-transform: rotate(27deg);
+            transform: rotate(27deg); }
+  .cg-pie.percent-46:after {
+    -webkit-transform: rotate(30.6deg);
+        -ms-transform: rotate(30.6deg);
+            transform: rotate(30.6deg); }
+  .cg-pie.percent-47:after {
+    -webkit-transform: rotate(34.2deg);
+        -ms-transform: rotate(34.2deg);
+            transform: rotate(34.2deg); }
+  .cg-pie.percent-48:after {
+    -webkit-transform: rotate(37.8deg);
+        -ms-transform: rotate(37.8deg);
+            transform: rotate(37.8deg); }
+  .cg-pie.percent-49:after {
+    -webkit-transform: rotate(41.4deg);
+        -ms-transform: rotate(41.4deg);
+            transform: rotate(41.4deg); }
+  .cg-pie.percent-50:after {
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg); }
+  .cg-pie.percent-51:after {
+    -webkit-transform: rotate(48.6deg);
+        -ms-transform: rotate(48.6deg);
+            transform: rotate(48.6deg); }
+  .cg-pie.percent-52:after {
+    -webkit-transform: rotate(52.2deg);
+        -ms-transform: rotate(52.2deg);
+            transform: rotate(52.2deg); }
+  .cg-pie.percent-53:after {
+    -webkit-transform: rotate(55.8deg);
+        -ms-transform: rotate(55.8deg);
+            transform: rotate(55.8deg); }
+  .cg-pie.percent-54:after {
+    -webkit-transform: rotate(59.4deg);
+        -ms-transform: rotate(59.4deg);
+            transform: rotate(59.4deg); }
+  .cg-pie.percent-55:after {
+    -webkit-transform: rotate(63deg);
+        -ms-transform: rotate(63deg);
+            transform: rotate(63deg); }
+  .cg-pie.percent-56:after {
+    -webkit-transform: rotate(66.6deg);
+        -ms-transform: rotate(66.6deg);
+            transform: rotate(66.6deg); }
+  .cg-pie.percent-57:after {
+    -webkit-transform: rotate(70.2deg);
+        -ms-transform: rotate(70.2deg);
+            transform: rotate(70.2deg); }
+  .cg-pie.percent-58:after {
+    -webkit-transform: rotate(73.8deg);
+        -ms-transform: rotate(73.8deg);
+            transform: rotate(73.8deg); }
+  .cg-pie.percent-59:after {
+    -webkit-transform: rotate(77.4deg);
+        -ms-transform: rotate(77.4deg);
+            transform: rotate(77.4deg); }
+  .cg-pie.percent-60:after {
+    -webkit-transform: rotate(81deg);
+        -ms-transform: rotate(81deg);
+            transform: rotate(81deg); }
+  .cg-pie.percent-61:after {
+    -webkit-transform: rotate(84.6deg);
+        -ms-transform: rotate(84.6deg);
+            transform: rotate(84.6deg); }
+  .cg-pie.percent-62:after {
+    -webkit-transform: rotate(88.2deg);
+        -ms-transform: rotate(88.2deg);
+            transform: rotate(88.2deg); }
+  .cg-pie.percent-63:after {
+    -webkit-transform: rotate(91.8deg);
+        -ms-transform: rotate(91.8deg);
+            transform: rotate(91.8deg); }
+  .cg-pie.percent-64:after {
+    -webkit-transform: rotate(95.4deg);
+        -ms-transform: rotate(95.4deg);
+            transform: rotate(95.4deg); }
+  .cg-pie.percent-65:after {
+    -webkit-transform: rotate(99deg);
+        -ms-transform: rotate(99deg);
+            transform: rotate(99deg); }
+  .cg-pie.percent-66:after {
+    -webkit-transform: rotate(102.6deg);
+        -ms-transform: rotate(102.6deg);
+            transform: rotate(102.6deg); }
+  .cg-pie.percent-67:after {
+    -webkit-transform: rotate(106.2deg);
+        -ms-transform: rotate(106.2deg);
+            transform: rotate(106.2deg); }
+  .cg-pie.percent-68:after {
+    -webkit-transform: rotate(109.8deg);
+        -ms-transform: rotate(109.8deg);
+            transform: rotate(109.8deg); }
+  .cg-pie.percent-69:after {
+    -webkit-transform: rotate(113.4deg);
+        -ms-transform: rotate(113.4deg);
+            transform: rotate(113.4deg); }
+  .cg-pie.percent-70:after {
+    -webkit-transform: rotate(117deg);
+        -ms-transform: rotate(117deg);
+            transform: rotate(117deg); }
+  .cg-pie.percent-71:after {
+    -webkit-transform: rotate(120.6deg);
+        -ms-transform: rotate(120.6deg);
+            transform: rotate(120.6deg); }
+  .cg-pie.percent-72:after {
+    -webkit-transform: rotate(124.2deg);
+        -ms-transform: rotate(124.2deg);
+            transform: rotate(124.2deg); }
+  .cg-pie.percent-73:after {
+    -webkit-transform: rotate(127.8deg);
+        -ms-transform: rotate(127.8deg);
+            transform: rotate(127.8deg); }
+  .cg-pie.percent-74:after {
+    -webkit-transform: rotate(131.4deg);
+        -ms-transform: rotate(131.4deg);
+            transform: rotate(131.4deg); }
+  .cg-pie.percent-75:after {
+    -webkit-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+            transform: rotate(135deg); }
+  .cg-pie.percent-76:after {
+    -webkit-transform: rotate(138.6deg);
+        -ms-transform: rotate(138.6deg);
+            transform: rotate(138.6deg); }
+  .cg-pie.percent-77:after {
+    -webkit-transform: rotate(142.2deg);
+        -ms-transform: rotate(142.2deg);
+            transform: rotate(142.2deg); }
+  .cg-pie.percent-78:after {
+    -webkit-transform: rotate(145.8deg);
+        -ms-transform: rotate(145.8deg);
+            transform: rotate(145.8deg); }
+  .cg-pie.percent-79:after {
+    -webkit-transform: rotate(149.4deg);
+        -ms-transform: rotate(149.4deg);
+            transform: rotate(149.4deg); }
+  .cg-pie.percent-80:after {
+    -webkit-transform: rotate(153deg);
+        -ms-transform: rotate(153deg);
+            transform: rotate(153deg); }
+  .cg-pie.percent-81:after {
+    -webkit-transform: rotate(156.6deg);
+        -ms-transform: rotate(156.6deg);
+            transform: rotate(156.6deg); }
+  .cg-pie.percent-82:after {
+    -webkit-transform: rotate(160.2deg);
+        -ms-transform: rotate(160.2deg);
+            transform: rotate(160.2deg); }
+  .cg-pie.percent-83:after {
+    -webkit-transform: rotate(163.8deg);
+        -ms-transform: rotate(163.8deg);
+            transform: rotate(163.8deg); }
+  .cg-pie.percent-84:after {
+    -webkit-transform: rotate(167.4deg);
+        -ms-transform: rotate(167.4deg);
+            transform: rotate(167.4deg); }
+  .cg-pie.percent-85:after {
+    -webkit-transform: rotate(171deg);
+        -ms-transform: rotate(171deg);
+            transform: rotate(171deg); }
+  .cg-pie.percent-86:after {
+    -webkit-transform: rotate(174.6deg);
+        -ms-transform: rotate(174.6deg);
+            transform: rotate(174.6deg); }
+  .cg-pie.percent-87:after {
+    -webkit-transform: rotate(178.2deg);
+        -ms-transform: rotate(178.2deg);
+            transform: rotate(178.2deg); }
+  .cg-pie.percent-88:after {
+    -webkit-transform: rotate(181.8deg);
+        -ms-transform: rotate(181.8deg);
+            transform: rotate(181.8deg); }
+  .cg-pie.percent-89:after {
+    -webkit-transform: rotate(185.4deg);
+        -ms-transform: rotate(185.4deg);
+            transform: rotate(185.4deg); }
+  .cg-pie.percent-90:after {
+    -webkit-transform: rotate(189deg);
+        -ms-transform: rotate(189deg);
+            transform: rotate(189deg); }
+  .cg-pie.percent-91:after {
+    -webkit-transform: rotate(192.6deg);
+        -ms-transform: rotate(192.6deg);
+            transform: rotate(192.6deg); }
+  .cg-pie.percent-92:after {
+    -webkit-transform: rotate(196.2deg);
+        -ms-transform: rotate(196.2deg);
+            transform: rotate(196.2deg); }
+  .cg-pie.percent-93:after {
+    -webkit-transform: rotate(199.8deg);
+        -ms-transform: rotate(199.8deg);
+            transform: rotate(199.8deg); }
+  .cg-pie.percent-94:after {
+    -webkit-transform: rotate(203.4deg);
+        -ms-transform: rotate(203.4deg);
+            transform: rotate(203.4deg); }
+  .cg-pie.percent-95:after {
+    -webkit-transform: rotate(207deg);
+        -ms-transform: rotate(207deg);
+            transform: rotate(207deg); }
+  .cg-pie.percent-96:after {
+    -webkit-transform: rotate(210.6deg);
+        -ms-transform: rotate(210.6deg);
+            transform: rotate(210.6deg); }
+  .cg-pie.percent-97:after {
+    -webkit-transform: rotate(214.2deg);
+        -ms-transform: rotate(214.2deg);
+            transform: rotate(214.2deg); }
+  .cg-pie.percent-98:after {
+    -webkit-transform: rotate(217.8deg);
+        -ms-transform: rotate(217.8deg);
+            transform: rotate(217.8deg); }
+  .cg-pie.percent-99:after {
+    -webkit-transform: rotate(221.4deg);
+        -ms-transform: rotate(221.4deg);
+            transform: rotate(221.4deg); }
+  .cg-pie.percent-100:after {
+    -webkit-transform: rotate(225deg);
+        -ms-transform: rotate(225deg);
+            transform: rotate(225deg); }
+
+.cg-pie-wrapper {
+  margin: 10px; }
