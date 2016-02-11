@@ -1,8 +1,9 @@
 {
   "name": "cg-percent-pie",
+  "version": "1.0.0",
   "homepage": "https://github.com/roparz/cg-percent-pie",
   "authors": [
-    "Chris G. <christophe.gourmelon@gmail.com>"
+    "Chris G. <christophe@roparz.me>"
   ],
   "description": "Percent Pie AngularJS directive",
   "main": "index.html",
@@ -20,6 +21,11 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
-  ]
+    "tests",
+    "cg-percent-pie.coffee",
+    "index.sass"
+  ],
+  "devDependencies": {
+    "angular": "1.4.9"
+  }
 }
