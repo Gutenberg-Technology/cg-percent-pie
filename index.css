@@ -21,7 +21,6 @@
   width: 1em;
   height: 1em;
   position: relative;
-  float: left;
   border: 3px solid #d4d4d4;
   border-radius: 50%; }
   .cg-pie-wrapper:after {
@@ -455,6 +454,3 @@
     -webkit-transform: rotate(225deg);
         -ms-transform: rotate(225deg);
             transform: rotate(225deg); }
-
-.cg-pie-wrapper {
-  margin: 10px; }
