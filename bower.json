@@ -1,0 +1,25 @@
+{
+  "name": "cg-percent-pie",
+  "homepage": "https://github.com/roparz/cg-percent-pie",
+  "authors": [
+    "Chris G. <christophe.gourmelon@gmail.com>"
+  ],
+  "description": "Percent Pie AngularJS directive",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "angularjs",
+    "directive",
+    "sass",
+    "percent",
+    "pie"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
