@@ -1,5 +1,5 @@
 # cg-percent-pie
-Percent Pie AngularJS directive
+Percent Pie AngularJS directive ([exemple](http://codepen.io/roparz/pen/OMrbLZ))
 
 <img src="https://raw.githubusercontent.com/roparz/cg-percent-pie/master/exemple.png" />
 
