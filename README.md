@@ -1,6 +1,8 @@
 # cg-percent-pie
 Percent Pie AngularJS directive
 
+<img src="https://raw.githubusercontent.com/roparz/cg-percent-pie/master/exemple.png" />
+
 ## Installation
 
 ```bash
