@@ -2,19 +2,15 @@
   box-sizing: border-box; }
 
 .cg-pie.percent-51:before, .cg-pie.percent-52:before, .cg-pie.percent-53:before, .cg-pie.percent-54:before, .cg-pie.percent-55:before, .cg-pie.percent-56:before, .cg-pie.percent-57:before, .cg-pie.percent-58:before, .cg-pie.percent-59:before, .cg-pie.percent-60:before, .cg-pie.percent-61:before, .cg-pie.percent-62:before, .cg-pie.percent-63:before, .cg-pie.percent-64:before, .cg-pie.percent-65:before, .cg-pie.percent-66:before, .cg-pie.percent-67:before, .cg-pie.percent-68:before, .cg-pie.percent-69:before, .cg-pie.percent-70:before, .cg-pie.percent-71:before, .cg-pie.percent-72:before, .cg-pie.percent-73:before, .cg-pie.percent-74:before, .cg-pie.percent-75:before, .cg-pie.percent-76:before, .cg-pie.percent-77:before, .cg-pie.percent-78:before, .cg-pie.percent-79:before, .cg-pie.percent-80:before, .cg-pie.percent-81:before, .cg-pie.percent-82:before, .cg-pie.percent-83:before, .cg-pie.percent-84:before, .cg-pie.percent-85:before, .cg-pie.percent-86:before, .cg-pie.percent-87:before, .cg-pie.percent-88:before, .cg-pie.percent-89:before, .cg-pie.percent-90:before, .cg-pie.percent-91:before, .cg-pie.percent-92:before, .cg-pie.percent-93:before, .cg-pie.percent-94:before, .cg-pie.percent-95:before, .cg-pie.percent-96:before, .cg-pie.percent-97:before, .cg-pie.percent-98:before, .cg-pie.percent-99:before, .cg-pie.percent-100:before {
-  content: '';
-  position: absolute;
-  border: 3px solid transparent;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  border-color: #55c7d7 #55c7d7 transparent transparent;
+  display: block;
   -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
           transform: rotate(45deg); }
 
 .cg-pie.percent-0, .cg-pie.percent-1, .cg-pie.percent-2, .cg-pie.percent-3, .cg-pie.percent-4, .cg-pie.percent-5, .cg-pie.percent-6, .cg-pie.percent-7, .cg-pie.percent-8, .cg-pie.percent-9, .cg-pie.percent-10, .cg-pie.percent-11, .cg-pie.percent-12, .cg-pie.percent-13, .cg-pie.percent-14, .cg-pie.percent-15, .cg-pie.percent-16, .cg-pie.percent-17, .cg-pie.percent-18, .cg-pie.percent-19, .cg-pie.percent-20, .cg-pie.percent-21, .cg-pie.percent-22, .cg-pie.percent-23, .cg-pie.percent-24, .cg-pie.percent-25, .cg-pie.percent-26, .cg-pie.percent-27, .cg-pie.percent-28, .cg-pie.percent-29, .cg-pie.percent-30, .cg-pie.percent-31, .cg-pie.percent-32, .cg-pie.percent-33, .cg-pie.percent-34, .cg-pie.percent-35, .cg-pie.percent-36, .cg-pie.percent-37, .cg-pie.percent-38, .cg-pie.percent-39, .cg-pie.percent-40, .cg-pie.percent-41, .cg-pie.percent-42, .cg-pie.percent-43, .cg-pie.percent-44, .cg-pie.percent-45, .cg-pie.percent-46, .cg-pie.percent-47, .cg-pie.percent-48, .cg-pie.percent-49, .cg-pie.percent-50 {
   clip: rect(0, 1em, 1em, 0.5em); }
+  .cg-pie.percent-0:before, .cg-pie.percent-1:before, .cg-pie.percent-2:before, .cg-pie.percent-3:before, .cg-pie.percent-4:before, .cg-pie.percent-5:before, .cg-pie.percent-6:before, .cg-pie.percent-7:before, .cg-pie.percent-8:before, .cg-pie.percent-9:before, .cg-pie.percent-10:before, .cg-pie.percent-11:before, .cg-pie.percent-12:before, .cg-pie.percent-13:before, .cg-pie.percent-14:before, .cg-pie.percent-15:before, .cg-pie.percent-16:before, .cg-pie.percent-17:before, .cg-pie.percent-18:before, .cg-pie.percent-19:before, .cg-pie.percent-20:before, .cg-pie.percent-21:before, .cg-pie.percent-22:before, .cg-pie.percent-23:before, .cg-pie.percent-24:before, .cg-pie.percent-25:before, .cg-pie.percent-26:before, .cg-pie.percent-27:before, .cg-pie.percent-28:before, .cg-pie.percent-29:before, .cg-pie.percent-30:before, .cg-pie.percent-31:before, .cg-pie.percent-32:before, .cg-pie.percent-33:before, .cg-pie.percent-34:before, .cg-pie.percent-35:before, .cg-pie.percent-36:before, .cg-pie.percent-37:before, .cg-pie.percent-38:before, .cg-pie.percent-39:before, .cg-pie.percent-40:before, .cg-pie.percent-41:before, .cg-pie.percent-42:before, .cg-pie.percent-43:before, .cg-pie.percent-44:before, .cg-pie.percent-45:before, .cg-pie.percent-46:before, .cg-pie.percent-47:before, .cg-pie.percent-48:before, .cg-pie.percent-49:before, .cg-pie.percent-50:before {
+    display: none; }
 
 .cg-pie-wrapper {
   font-size: 80px;
@@ -41,7 +37,7 @@
   left: -3px;
   width: 1em;
   height: 1em; }
-  .cg-pie:after {
+  .cg-pie:after, .cg-pie:before {
     content: '';
     position: absolute;
     width: 100%;
