@@ -1,13 +1,11 @@
 {
   "name": "cg-percent-pie",
-  "version": "1.0.1",
-  "homepage": "https://github.com/Gutenberg-Technology/cg-percent-pie",
+  "description": "Percent Pie AngularJS directive",
+  "main": "index.html",
   "authors": [
     "Chris G. <christophe@roparz.me>"
   ],
-  "description": "Percent Pie AngularJS directive",
-  "main": "index.html",
-  "moduleType": [],
+  "license": "MIT",
   "keywords": [
     "angularjs",
     "directive",
@@ -15,7 +13,8 @@
     "percent",
     "pie"
   ],
-  "license": "MIT",
+  "homepage": "https://github.com/Gutenberg-Technology/cg-percent-pie",
+  "moduleType": [],
   "ignore": [
     "**/.*",
     "node_modules",
