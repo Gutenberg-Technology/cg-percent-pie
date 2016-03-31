@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roparz/cg-percent-pie.git"
+    "url": "git+https://github.com/Gutenberg-Technology/cg-percent-pie.git"
   },
   "author": "Chris G. <christophe@roparz.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/roparz/cg-percent-pie/issues"
+    "url": "https://github.com/Gutenberg-Technology/cg-percent-pie/issues"
   },
-  "homepage": "https://github.com/roparz/cg-percent-pie#readme",
+  "homepage": "https://github.com/Gutenberg-Technology/cg-percent-pie#readme",
   "dependencies": {
     "coffee-script": "1.10.0",
     "gulp": "3.9.1",
