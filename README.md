@@ -47,7 +47,7 @@ If you want to use default styles, just import the `index.css` file in your `ind
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Christophe Gourmelon <christophe@roparz.me>
+Copyright (c) 2016 Gutenberg Technology
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
