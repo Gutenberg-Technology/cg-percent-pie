@@ -22,7 +22,11 @@
     "test",
     "tests",
     "cg-percent-pie.coffee",
-    "index.sass"
+    "index.sass",
+    "gulpfile.coffee",
+    "coffeelint.json",
+    "exemple.png",
+    "package.json"
   ],
   "devDependencies": {
     "angular": "1.4.9"
