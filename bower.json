@@ -29,6 +29,6 @@
     "package.json"
   ],
   "devDependencies": {
-    "angular": "1.4.9"
+    "angular": "~1"
   }
 }
