@@ -18,7 +18,8 @@
   height: 1em;
   position: relative;
   border: 3px solid #d4d4d4;
-  border-radius: 50%; }
+  border-radius: 50%;
+  text-align: left; }
   .cg-pie-wrapper:after {
     content: attr(data-percent) "%";
     font-family: sans-serif;
