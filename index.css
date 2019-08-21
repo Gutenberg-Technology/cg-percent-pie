@@ -17,6 +17,7 @@
   height: 1em;
   position: relative;
   border: 3px solid #d4d4d4;
+  text-align: left;
   border-radius: 50%; }
   .cg-pie-wrapper:after {
     content: attr(data-percent) "%";
